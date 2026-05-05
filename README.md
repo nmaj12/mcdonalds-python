@@ -1,11 +1,11 @@
-# 🍔 McDonald's Data Analysis & Visualization (Python)
+# McDonald's Data Analysis & Visualization (Python)
 
 A Python project for analyzing and visualizing food nutrition data (e.g. McDonald’s menu) from Kaggle.  
 It includes statistical analysis, clustering, regression, and an interactive Streamlit dashboard.
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 - analiza.py → statistical analysis (correlation, regression, clustering, MDS projection)  
 - funkcje.py → data loading, filtering, grouping pipeline  
@@ -15,16 +15,16 @@ It includes statistical analysis, clustering, regression, and an interactive Str
 
 ---
 
-# 📊 Features
+# Features
 
-## 📌 Data Processing
+## Data Processing
 - Loading CSV data
 - Filtering high-calorie products (>500 kcal)
 - Grouping data by category
 
 ---
 
-## 📈 Statistical Analysis
+## Statistical Analysis
 
 The project calculates:
 
@@ -35,46 +35,16 @@ The project calculates:
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 - KMeans clustering implemented from scratch (no sklearn)
 - 2D normalization (MDS-like projection)
 
 ---
 
-# 📊 Streamlit Dashboard
+# Streamlit Dashboard
 
 Run the application:
 
+```bash
 streamlit run wizualizacje.py
-
----
-
-## 🎛 Dashboard Features
-
-- Interactive data table
-- Category filtering
-- Multiple visualization types:
-  - Streamlit built-in charts
-  - Matplotlib
-  - Seaborn
-  - Plotly
-  - Altair
-
----
-
-# 🧠 Skills Demonstrated
-
-- Data analysis in Python
-- Data visualization
-- Functional programming (pipeline & composition)
-- Statistical analysis (correlation, regression)
-- Basic machine learning (clustering)
-- Building interactive dashboards with Streamlit
-
----
-
-# ⭐ About This Project
-
-This project was created to practice:
-data analysis, visualization, and basic machine learning in Python using real-world dataset from Kaggle.
